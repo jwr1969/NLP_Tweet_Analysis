@@ -1,0 +1,156 @@
+/* Large and X-Large default CSS */
+/* Nav Bar Changes to match reference images from gitlab */
+
+
+.navbar {
+    margin: 0px;
+    padding-top: 0px!important; 
+    padding-bottom: 0px!important; 
+}
+.navbar-expand-md {
+    background-color: #fff;
+}
+
+a.navbar-brand {
+    background-color: #20b2aa;
+    color: #fff!important;
+    padding: .75rem;
+    max-height: 100%!important;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.75rem;
+}
+
+.container-fluid  {
+    padding-right: 0rem!important; 
+    padding-left: 0rem!important; 
+}
+/* End Navbar CSS Settings */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+main {
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: .75rem;
+}
+
+div.vis-main-summary, div.max-temp-summary, div.humidity-summary, div.cloud-summary, div.wind-speed-summary {
+    width: 69%;
+    float: left;
+    margin-right: .75rem;
+}
+
+div.vis-main-summary img {
+    float: left;
+    max-width: 40%;
+}
+
+div.vis-side-navigation {
+    width: 29%;
+    float: right;
+}
+div.vis-side-navigation img {
+    max-width: 100%;
+}
+
+div.comparison-container img, div.max-temp-summary img, div.humidity-summary img, div.cloud-summary img, div.wind-speed-summary img {
+    max-width: 100%;
+}
+.row {
+    padding: 1.75rem;
+}
+.my-container {
+    background-color: #fff;
+}
+
+h1, h2, h3 {
+    color: #20b2aa;
+    font-family: 'Roboto Slab', serif;
+}
+h3 {
+    text-align: center;
+}
+hr {
+    border: .5px dashed #f8f9fa;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* table styling */
+tbody td {
+    font-size: .75rem;
+}
+thead tr {
+    font-size: .85rem;
+}
+
+table {
+    border: 1px solid #f8f9fa;
+    max-width: 100%;
+}
+
+div.active-side-nav {
+    border: 1px solid #20b2aa;
+}
+/* end table styling */
+
+/* medium screen queries */
+@media (max-width: 768px) {
+    /* div#navbarNavDropdown {
+        background-color: #f8f9fa!important;
+        margin-top: 5px;
+        width: 100%;
+    } */
+    button.navbar-toggler {
+        margin-right: .75rem;
+    }
+    .navbar-expand-md {
+        background-color: #20b2aa;
+    }
+    
+    #navbarNavDropdown {
+        background-color: #fff;
+    }
+
+    .navbar-nav .nav-link {
+        /* padding-right: 0; */
+        padding-left: .75rem;
+    }
+
+    .dropdown-menu {
+        color: lightslategray;
+    }
+
+    div.vis-main-summary, div.max-temp-summary, div.humidity-summary, div.cloud-summary, div.wind-speed-summary {
+    width: 100%;
+    float: none;
+    }
+
+    div.vis-side-navigation {
+    width: 100%;
+    float: none;
+    }
+
+    main {
+        max-width: 100%;
+        margin: 0 auto;
+        padding-top: 0rem;
+    }
+
+    body {
+        background-color: #fff;
+    }
+
+    div.comparison-container div.col-sm-12 {
+        border-bottom: .5px solid #f2f2f2;
+        margin-bottom: 1.75rem;
+    }
+}
+  
